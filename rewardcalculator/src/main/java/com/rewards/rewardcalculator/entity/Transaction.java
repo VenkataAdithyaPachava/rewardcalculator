@@ -8,7 +8,6 @@ import java.sql.Timestamp;
 @Table(name = "TRANSACTION")
 public class Transaction {
     @Id
-    @GeneratedValue( strategy = GenerationType.IDENTITY)
     @Column(name = "TRANSACTION_ID")
     private Long transactionId;
 
